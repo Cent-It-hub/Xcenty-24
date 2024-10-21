@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #2bdd0fd8;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #c01919;
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Landing Page Styles */
+#landing {
+    background-color: #601117;
+    padding: 60px 20px;
+}
+
+#landing h1 {
+    font-size: 2.5rem;
+    color: #0c0c0c;
+}
+
+#landing p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* About Me Section */
+#about {
+    background-color: #020403;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Timeline Section */
+#timeline {
+    background-color: #552121;
+    padding: 40px;
+}
+
+.timeline-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.timeline-item {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: #090909;
+    border-radius: 10px;
+}
+
+/* Gallery Styles for Birthday Section */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/* Future Goals Section */
+#future {
+    background-color: #4b1515;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .timeline-container {
+        flex-direction: column;
+    }
+}
